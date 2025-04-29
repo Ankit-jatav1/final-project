@@ -1,0 +1,153 @@
+body {
+  background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(1.jpg);
+  color: #ff7200;
+  text-shadow: #00000080;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #ff7200;
+  border-radius: 5px;
+  color: #000;
+}
+
+/* Existing CSS */
+.nav {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+p1 {
+  padding: 0px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(118, 103, 138, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+}
+
+/* CSS for the main content */
+main {
+  max-width: fit-content;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(97, 7, 7, 0.1);
+}
+
+h2 {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #ff7200;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-shadow: #000000;
+}
+
+p {
+  color: #61;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.subject-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  grid-gap: 10px;
+}
+
+.subject-tile {
+  background-color: #1112;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.subject-tile:hover {
+  transform: translateY(-5px);
+}
+
+.subject-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subject-description {
+  color: #888;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: gray;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: #000000;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+/* CSS for the footer */
+footer {
+  background-color: #333;
+  background-size: 100cqb;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
